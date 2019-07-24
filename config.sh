@@ -1,19 +1,19 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=Jyotiraditya
+GITHUB_EMAIL=dreadnaught02@outlook.com
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="eitri"
+KBUILD_BUILD_HOST="nidavellir"
 
-export oem=motorola
-export device=harpia
+export oem=oneplus
+export device=oneplus3
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+ROM="WaveOS"
+manifest_url="https://github.com/Wave-project/manifest"
+export rom_vendor_name="wave" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="p"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="Dreadnaught02/wave_builds"
 
 timezone="Asia/Kolkata"
