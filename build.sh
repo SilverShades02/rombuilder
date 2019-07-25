@@ -66,7 +66,7 @@ Build Started: [See Progress]("$ci_url")"
         python3 /drone/src/dependency_cloner.py
     fi
     lunch "$rom_vendor_name"_"$device"-userdebug >/dev/null  2>&1
-    schedtool -B -n 1 -e ionice -n 1 make -j$(($(nproc --all) * 2)) bacon | grep "$device"
+    schedtool -B -n 1 -e ionice -n 1 make -j$(($(nproc --all) * 2)) cookies | grep "$device"
     BUILD_END=$(date +"%s")
     BUILD_DIFF=$((BUILD_END - BUILD_START))
 
